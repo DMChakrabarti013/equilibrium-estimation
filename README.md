@@ -7,10 +7,9 @@ where $a,b,c,d,e$ are positive parameters, $q^d$ is quantity demanded, $q^s$ is 
 Observe that
 $$\epsilon^d = \frac{\partial \ln \left( q^d \right)}{\partial \ln \left( p \right)} = b$$
 is the parameter of interest. The equilibrium condition is $\ln\left( q^d \right) = \ln\left( q^s \right)$. Then,
-\begin{align*}
-a - b \ln \left( p \right) = c + d \ln\left( p \right) - e \ln\left( p \right) & \implies a - b \ln \left( p^* \right) = c + d \ln \left( p^* \right) - e \ln \left( p^* \right)\\
-& \implies \ln \left( p^* \right) = \frac{a-c}{d+b} + \frac{e}{d+b} \ln \left( p^* \right).
-\end{align*}
+$a - b \ln \left( p \right) = c + d \ln\left( p \right) - e \ln\left( p \right)  \implies a - b \ln \left( p^* \right) = c + d \ln \left( p^* \right) - e \ln \left( p^* \right)
+ \implies \ln \left( p^* \right) = \frac{a-c}{d+b} + \frac{e}{d+b} \ln \left( p^* \right).$
+
 
 Let $\beta_{0} = \frac{a-c}{d+b}$ and $\beta_{1} = \frac{e}{d+b}$ gives us
 $$\ln\left( p^* \right) = \beta_{0} + \beta_{1} \ln \left( p^e \right).$$
